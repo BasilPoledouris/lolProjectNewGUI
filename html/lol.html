@@ -1,0 +1,24 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lol.css"/>
+	<?php
+	include 'lol.php';//this just includes the script in the file header.inc.pho given 
+							//previously in this new file index.php, therefore introducing 
+							//an input form 
+	?>
+</head>
+
+<body>
+	<h3>
+		This is a program that tests you manhood. It compares your name with the word faget in your mother tongue and 
+		retrieves the percentage of similarity. <br><br><br><br>
+	</h3>
+	<form action="lol.php" method="GET">
+		<b>Insert your name (at least two names are required)</b><br>
+		<input type="text" name='name' /><br>
+		<b>Insert the word for faget in your mother tongue</b><br>
+		<input type = "text" name='faget' /><br><br><hr/>
+		<input type = "submit" value = "submit"/>
+	<form>
+</body>
+</html>
